@@ -9,10 +9,12 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    width: 85vw;
 }
 
 header {
@@ -34,26 +36,28 @@ h1 {
 
 nav {
     display: flex;
+    justify-content: space-between;
     background-color: #540B51;
     padding: 20px;
     margin: 0;
 }
 
 #menu {
-    display:none;
+    display: none;
 }
 
 .logo {
-    width: 30%;
+    width: 200px;
 }
 
-.botones_header {
-   
+.buttons_up {
+   background-color: #540B51;
+   border:#540B51;
+   padding-right: -10px;
 }
 
 
 #main_text {
-    width: 50%;
     margin:0 ;
     text-align: center;
     padding: 0px 20px;
@@ -88,8 +92,44 @@ nav {
 }
 
 #main_image {
-    width: 400px;
+    width: 85vw;
     margin-top: 20px;
 }
 
+
+#logos_empresas {
+    background-color: #F3EAE2;
+    margin-top: -20px;
+    padding: 10px 10px;
+    width: 85vw;
+}
+
+#text_trust {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 800;
+    margin: 30px 20px 60px 20px ;
+}
+
+#logos {
+    width: 100px;
+}
+
+#sales_team img {
+    width: 85vw;
+}
+
+#tools img {
+    width: 85vw;
+}
+
+
+#apps img {
+    width:85vw;
+}
+
+#sales_team, #tools, #apps {
+    background-color: #F3EAE2;
+}
 }
